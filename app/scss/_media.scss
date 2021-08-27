@@ -30,7 +30,7 @@
   }
   .info {
     font-size: 10.5px;
-    max-width: 275px;
+    max-width: 280px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -238,6 +238,9 @@
       margin-bottom: 47px;
     }
   }
+  .calc-cont__cont button {
+    transform: translate(-50%, -59%);
+  }
   .input {
     margin-bottom: 46px;
     label {
@@ -246,13 +249,13 @@
       margin-right: auto;
       line-height: 1.91;
       letter-spacing: 0.0884em;
-      margin-bottom: 2px;
+      margin-bottom: 3px;
     }
     p {
        max-width: 248px;
-      line-height: 1.48;
+      line-height: 1.58;
       letter-spacing: -0.006em;
-      margin-bottom: 1px;
+      margin-bottom: 0px;
     }
     &:not(.number) {
       margin-bottom: 47px;
