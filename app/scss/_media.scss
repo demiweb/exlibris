@@ -276,3 +276,7 @@
     height: 54px;
   }
 }
+@media print {
+  .calc-result {
+    background-color: #001b50;
+}
